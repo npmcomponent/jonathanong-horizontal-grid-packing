@@ -1,24 +1,14 @@
 {
-  "name": "horizontal-grid-packing",
+  "name": "jonathanong-horizontal-grid-packing",
   "description": "Horizontal grid packing",
   "version": "0.1.4",
-  "author": {
-    "name": "Jonathan Ong",
-    "email": "me@jongleberry.com",
-    "url": "http://jongleberry.com",
-    "twitter": "https://twitter.com/jongleberry"
+  "main": "lib/pack.js",
+  "styles": [
+    "lib/pack.css"
+  ],
+  "dependencies": {
+    "component-classes": "git://github.com/npmcomponent/component-classes.git",
+    "the-swerve-linear-partitioning": "git://github.com/npmcomponent/the-swerve-linear-partitioning.git"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jonathanong/horizontal-grid-packing.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jonathanong/horizontal-grid-packing/issues",
-    "email": "me@jongleberry.com"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "jade": "*",
-    "request": "*"
-  }
+  "license": "MIT"
 }

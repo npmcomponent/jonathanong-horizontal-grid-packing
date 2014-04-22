@@ -1,3 +1,4 @@
+*This repository is a mirror of the [component](http://component.io) module [jonathanong/horizontal-grid-packing](http://github.com/jonathanong/horizontal-grid-packing). It has been modified to work with NPM+Browserify. You can install it using the command `npm install npmcomponent/jonathanong-horizontal-grid-packing`. Please do not open issues or send pull requests against this repo. If you have issues with this repo, report it to [npmcomponent](https://github.com/airportyh/npmcomponent).*
 # Horizontal grid packing
 
 Packs grids into rows so that each row expands to the full container width.
